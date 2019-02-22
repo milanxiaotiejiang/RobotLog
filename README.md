@@ -1,5 +1,7 @@
 
-[！[下载]（https://api.bintray.com/packages/milanxiaotiejiang/RobotLog/RobotLog/images/download.svg?version=v1.0.0）]（https://bintray.com/milanxiaotiejiang/RobotLog/ RobotLog / V1.0.0 /链接）
+[ ![Download](https://api.bintray.com/packages/milanxiaotiejiang/RobotLog/RobotLog/images/download.svg) ](https://bintray.com/milanxiaotiejiang/RobotLog/RobotLog/_latestVersion)
+image::https://api.bintray.com/packages/milanxiaotiejiang/RobotLog/RobotLog/images/download.svg[link="https://bintray.com/milanxiaotiejiang/RobotLog/RobotLog/_latestVersion"]
+<a href='https://bintray.com/milanxiaotiejiang/RobotLog/RobotLog/_latestVersion'><img src='https://api.bintray.com/packages/milanxiaotiejiang/RobotLog/RobotLog/images/download.svg'></a>
 
 # 如何使用它
 ## Step 
