@@ -1,6 +1,8 @@
 
 [ ![Download](https://api.bintray.com/packages/milanxiaotiejiang/RobotLog/RobotLog/images/download.svg) ](https://bintray.com/milanxiaotiejiang/RobotLog/RobotLog/_latestVersion)
 
+###### 学习鸣谢 https://github.com/xiaoyaoyou1212/ViseLog.git
+
 ## 如何使用它
 	dependencies { 
 		implementation 'com.seabreezerobot:LogLibrary:v1.0.0'
@@ -18,51 +20,51 @@
     }
     
 ## 使用
-#### 1.string
-    Logger.v("message", "test message");
-    Logger.v("test message");
+### 1.string
+      Logger.v("message", "test message");
+      Logger.v("test message");
   
-#### 2.object
-    Logger.i(new Boolean(true));
+### 2.object
+      Logger.i(new Boolean(true));
     
-#### 3.bundle
-    Logger.d(new Bundle());
+### 3.bundle
+      Logger.d(new Bundle());
     
-#### 4.collection
-    List<String> list = new ArrayList<>();
-    for (int i = 0; i < 5; i++) {
-        list.add("test" + i);
-    }
-    Logger.i(list);
+### 4.collection
+      List<String> list = new ArrayList<>();
+      for (int i = 0; i < 5; i++) {
+          list.add("test" + i);
+      }
+      Logger.i(list);
     
-#### 5.intent
-    Logger.w(new Intent());
+### 5.intent
+      Logger.w(new Intent());
     
-#### 6.map
-    Map<String, String> map = new HashMap<>();
-    for (int i = 0; i < 5; i++) {
-        map.put("xyy" + i, "test" + i);
-    }
-    Logger.d(map);
+### 6.map
+      Map<String, String> map = new HashMap<>();
+      for (int i = 0; i < 5; i++) {
+          map.put("xyy" + i, "test" + i);
+      }
+      Logger.d(map);
     
-#### 7.reference
-    Logger.wtf(new SoftReference(0));
+### 7.reference
+      Logger.wtf(new SoftReference(0));
     
-#### 8.throwable
-    Logger.e(new NullPointerException("this object is null!"));
+### 8.throwable
+      Logger.e(new NullPointerException("this object is null!"));
     
-#### 9.json
-    String json = "{'xyy1':[{'test1':'test1'},{'test2':'test2'}],'xyy2':{'test3':'test3'," +
-                    "'test4':'test4'}}";
-    Logger.json(json);
+### 9.json
+      String json = "{'xyy1':[{'test1':'test1'},{'test2':'test2'}],'xyy2':{'test3':'test3'," +
+                      "'test4':'test4'}}";
+      Logger.json(json);
     
-#### 10.xml
-    String xml = "<xyy><test1><test2>key</test2></test1><test3>name</test3><test4>value</test4></xyy>";
-    Logger.xml(xml);
+### 10.xml
+      String xml = "<xyy><test1><test2>key</test2></test1><test3>name</test3><test4>value</test4></xyy>";
+      Logger.xml(xml);
     
 ## LICENSE
 
-    Copyright (c) 2016-present, RxJava Contributors.
+    Copyright (c) 2019-present, Log Contributors.
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
