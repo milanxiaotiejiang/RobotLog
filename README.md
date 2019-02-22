@@ -1,4 +1,6 @@
 
+[![](https://jitpack.io/v/milanxiaotiejiang/RobotLog.svg)](https://jitpack.io/#milanxiaotiejiang/RobotLog)
+
 # 如何使用它
 ## Step 1.
 	先在 build.gradle(Project:XXXX) 的 repositories 添加 ： 
