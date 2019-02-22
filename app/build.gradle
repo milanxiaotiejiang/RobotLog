@@ -1,9 +1,5 @@
 apply plugin: 'com.android.application'
 
-apply plugin: 'com.github.dcendents.android-maven'
-
-group='com.github.milanxiaotiejiang'
-
 android {
     compileSdkVersion 28
     defaultConfig {
@@ -27,5 +23,7 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     implementation 'com.android.support:design:28.0.0'
-    implementation project(':LogLibrary')
+//    implementation project(':LogLibrary')
+
+    implementation 'com.seabreezerobot:LogLibrary:v1.0.0'
 }
