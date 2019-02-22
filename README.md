@@ -30,8 +30,8 @@
     
 ## 使用
 #### 1.string
-  Logger.v("message", "test message");
-  Logger.v("test message");
+    Logger.v("message", "test message");
+    Logger.v("test message");
   
 #### 2.object
     Logger.i(new Boolean(true));
