@@ -29,9 +29,10 @@
     }
     
 ### 使用
-  1.string
-    Logger.v("message", "test message");
-    Logger.v("test message");
+  ├── 1.string
+  ├──   Logger.v("message", "test message");
+  ├──   Logger.v("test message");
+  
   2.object
     Logger.i(new Boolean(true));
   3.bundle
