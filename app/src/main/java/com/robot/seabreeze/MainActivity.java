@@ -73,9 +73,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.print_normal_message:
-//                Logger.v("message", "test message");
-//                Logger.v("test message");
-                Logger.e("adsd");
+                Logger.v("message", "test message");
+                Logger.v("test message");
                 break;
             case R.id.print_normal_object:
                 Logger.i(new Boolean(true));
